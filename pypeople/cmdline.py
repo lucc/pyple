@@ -4,7 +4,7 @@ from __future__ import (
 """ Command line tools for/from pypeople """
 
 import sys
-import utils
+from . import utils
 
 
 def main(*args, **kwargs):
